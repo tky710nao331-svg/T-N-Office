@@ -1,0 +1,81 @@
+html
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <style>
+        /* 全体のデザイン設定 */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f5f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            background: #ffffff;
+            padding: 40px 30px;
+            border-radius: 16px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            width: 90%;
+            max-width: 400px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+        p {
+            font-size: 14px;
+            color: #666;
+            margin-bottom: 30px;
+        }
+        /* ボタンのデザイン */
+        .btn {
+            display: block;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 14px;
+            margin: 12px 0;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+        /* noteボタン（緑系） */
+        .btn-note {
+            background-color: #23bb9c;
+            color: #ffffff;
+        }
+        .btn-note:hover {
+            background-color: #1ca388;
+        }
+        /* X（旧Twitter）ボタン（黒系） */
+        .btn-x {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        .btn-x:hover {
+            background-color: #333333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- プロフィール情報（ここを書き換えてください） -->
+        <h1>T＆N Office</h1>
+        <p>個人でWeb関連事業を行っております。</p>
+
+        <!-- リンクボタン（href=" " の中をご自身のURLに書き換えてください） -->
+        <a href="https://note.com/tky49" class="btn btn-note" target="_blank" rel="noopener noreferrer">note を見る</a>
+        <a href="https://x.com/T710N331" class="btn btn-x" target="_blank" rel="noopener noreferrer">X（Twitter）を見る</a>
+    </div>
+
+</body>
+</html>
